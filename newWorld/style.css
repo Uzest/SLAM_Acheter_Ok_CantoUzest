@@ -1,0 +1,194 @@
+body{
+	margin:0px;
+	background-color:#1C1C1C;
+}
+h1{
+display:inline;
+color:white;
+text-shadow: 3px 5px 0px rgb(0,0,0);
+}
+
+#header {
+	height:3%;
+	background-color:#2E2E2E;
+	color:white;
+	text-align:right;
+	padding-right:250px;
+	padding-top:3px;
+}
+#menuCadre{
+	height:5%;
+	background-image:linear-gradient(grey, #1C1C1C);
+}
+#recherche{
+	background-image:url("images/barre.png");
+	height: 22px;
+	width: 220px;
+	float: right;
+	margin-top:-5px;
+	margin-right: 50px;
+}
+#recherche input {
+	/*margin-top:-20px;*/
+	margin-left: 8px;
+	width: 180px;
+	height: 15px;
+	font-size: 13px;
+	color: #aaaaaa;
+	background-color: transparent;
+	border: none;
+	font-style: italic;
+}
+#fondTerre{
+	
+	font-family: 'Great Vibes', cursive;
+	overflow: auto;
+	background-color:black;
+	background-image:url("images/backgroundTerre.png");
+	min-height:71%;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:50%;
+    background-position: 50% 25%; 
+	color:#58ACFA;
+	
+	
+}
+#fondTerreFormulaire{
+	overflow: auto;
+	background-color:black;
+	background-image:url("images/backgroundTerre.png");
+	min-height:71%;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:50%;
+    background-position: 50% 25%; 
+	color:white;	
+	font-size:30px;
+	
+}
+
+#footer{
+	background-image:linear-gradient(grey,#1C1C1C);
+	height:20%;
+}
+#colonneG{
+	float: left;
+	text-align:center;
+	margin-top: 2%;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 30px;
+	width:500px;
+}
+#colonneGFormulaire{
+	float: left;
+	text-align:center;
+	margin-top: 1%;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 30px;
+	border-color:#264077;
+	border-width:3px;
+  	border-style: solid;
+	background-image:linear-gradient(grey, #1C1C1C);
+	border-radius: 800px;
+	width:580px;
+}
+#colonneD{
+	float: right;
+	margin-right: 30px;
+}
+#menuBas{
+	padding-left:30%;
+}
+#colonneMenuG{
+	float:left;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding-top: 5px;
+}
+#colonneMenuM{
+	float:left;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding-top: 5px;
+
+}
+#colonneMenuD{
+	float:left;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding-top: 5px;
+}
+#copyright{
+	color:white;
+	position:fixed;
+	bottom:0;
+	right:0;
+	font-size:12px;
+}
+
+a{
+color:white;
+text-decoration: none;
+}
+a.header{
+margin-left:5%;
+}
+a.menu{
+margin-left:10%;
+font-size:20px;
+}
+a.bottom{
+}
+p.sautL{
+	margin-top:2%;
+}
+p.menu{
+display:inline; /* Pour enlever le saut à la ligne du dessus. */
+}
+p.midTexte{
+	margin-top:10%;
+	margin-left:3%;}
+p.tabSautL{
+	margin-top:2%;
+	margin-left:3%;}
+p.tab{
+
+	margin-left:3%;}
+p.titreMenuBas{
+	text-align:center;
+	color:#f6b313
+}
+p.menuBas1{
+color:white;
+}
+p.menuBas{
+margin-top:-15px;
+color:white;
+}
+p.inscription{
+	font-size:15px;
+}
+p.erreur
+{
+color:red;
+text-align:center;
+}
+img.boucher{
+	height:133px;
+}
+img.jardinier{
+	height:140px;
+}
+form
+{
+	font-size:20px;
+}
